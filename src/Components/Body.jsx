@@ -15,9 +15,7 @@ function Body(){
             </div>
             <div className="m-4 p-2 mx-18 flex flex-wrap gap-6">
                 <Restaurantcard/>
-                <Restaurantcard/>
-                <Restaurantcard/>
-                
+                               
             </div>
         </div>
     )

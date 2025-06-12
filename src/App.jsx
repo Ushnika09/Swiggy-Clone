@@ -4,15 +4,19 @@ import './App.css'
 import Body from './Components/Body'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
+import { Provider } from 'react-redux'
+import appStore from './utils/appStore'
 export default function App(){
 
   return(
-    <>
-    <Header/>
-    {/* <Body/> */}
-    <Outlet/>
-    <Footer/>
-    </>
+    <Provider store={appStore}>
+        <>
+          <Header/>
+          {/* <Body/> */}
+          <Outlet/>
+          <Footer/>
+        </>
+      </Provider>
 
   )
 }

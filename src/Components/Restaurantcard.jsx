@@ -2,8 +2,8 @@ import React from "react";
 import useApiCalling from'./Apicalling'
 import { Link } from "react-router-dom";
 
-function Restaurantcard() {
-    const restArr=useApiCalling();
+function Restaurantcard({restArr}) {
+    
     // console.log(restArr[1]?.info?.name,"restele");
     // console.log(restArr);
 

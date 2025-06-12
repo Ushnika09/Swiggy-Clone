@@ -9,12 +9,13 @@ import Help from './Components/Help.jsx'
 import Cart from './Components/Cart.jsx'
 import Body from './Components/Body.jsx'
 import RestaurantDetails from './Components/RestaurantDetails.jsx'
+// import Error from './Components/Error.jsx'
 
 const appRoute=createBrowserRouter([
   {
     path:"/",
     element:<App/>,
-    // errorElement:,
+    // errorElement:<Error/>,
     children:[
       {
     path:"/",

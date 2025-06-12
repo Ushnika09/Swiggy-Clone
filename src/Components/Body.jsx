@@ -33,7 +33,7 @@ function Body(){
     return (
         <div >
             <div className="mx-22 my-10">
-                <h1 className="font-bold text-2xl my-6 ">Restaurants with online food delivery in Bangalore</h1>
+                <h1 className="font-bold text-2xl my-6">Restaurants with online food delivery in Bangalore</h1>
                 <div className="my-4">
                     <button onClick={()=>handelDelivery(restArr)} className={`border font-medium border-gray-400 px-3 py-2 rounded-3xl ${click === "delivery" ? clickedStyle : ""}`} >Fast Delivery</button>
                     <button className="border  font-medium border-gray-400 ml-5 px-3 py-2 rounded-3xl">New On Swiggy</button>

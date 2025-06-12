@@ -1,4 +1,4 @@
-import axios from "axios"
+
 
 import useItemsApi from "./ItemsApi"
 import { useDispatch } from "react-redux";
@@ -17,9 +17,9 @@ function Itemcard({id}) {
 
   return (
     <>     
-                {
-                  (itemsArr && itemsArr.length)?
-                            itemsArr.map((item)=>{
+      {
+        (itemsArr && itemsArr.length)?
+          itemsArr.map((item)=>{
             return(
               <div className="mx-56  ">
                 <div className="flex justify-between m-6  rounded-lg p-6 ">
